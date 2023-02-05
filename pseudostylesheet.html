@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <!--
+
+In this example, we have a few different pseudo-style sheet selectors being used. 
+The :hover selector changes the background color of links when they are hovered over. 
+The :active selector changes the background color of buttons when they are clicked. 
+The :focus selector changes the border color of text inputs when they have focus. 
+The :first-child selector changes the font size of the first paragraph in a div. 
+And finally, the :nth-child(even) selector changes the background color of every other table row.
+
+-->
+
+  <style>
+    /* Changes the background color of links when hovered */
+    a:hover {
+      background-color: rgb(194, 11, 11);
+    }
+
+
+    /* Changes the background color of active buttons */
+    button:active {
+      background-color: red;
+    }
+
+    /* Changes the border color of focused text inputs */
+    input:focus {
+      border: 2px solid white;
+    }
+
+    /* Changes the font size of the first paragraph in a div */
+    div p:first-child {
+      font-size: larger;
+    }
+
+    /* Changes the background color of every other table row */
+    tr:nth-child(2) {
+      background-color: lightgray;
+    }
+
+    /* Changing the text color entered in the input area */
+    input {
+      color: red; /* Text Color */
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <a href="#Successfullyconnected">Link</a><br>
+
+  <button>Button</button><br>
+
+  <input type="text"><br>
+
+  <div>
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+  </div>
+
+  <table>
+    <tr>
+      <td>Row 1</td>
+    </tr>
+    <tr>
+      <td>Row 2</td>
+    </tr>
+    <tr>
+      <td>Row 3</td>
+    </tr>
+    <tr>
+      <td>Row 4</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
